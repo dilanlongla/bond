@@ -36,23 +36,17 @@ dependencies:
   provider: ^5.0.0
   shared_preferences: ^2.0.5
 
-flutter_icons:
-  android: true
-  ios: true
-  image_path: "assets/logo/bond_logo.png"
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
   change_app_package_name: ^1.0.0
-  flutter_launcher_icons: ^0.9.0
   pedantic: ^1.0.0
   flutter_launcher_icons: ^0.9.0
 
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/logo/bond_logo_dev.png"
+  image_path: "ndole/bond_app/assets/logo/bond_logo_dev.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -64,9 +58,9 @@ flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/
-    - assets/logo/
-    - assets/icons/
+    - ndole/bond_app/assets/images/
+    - ndole/bond_app/assets/logo/
+    - ndole/bond_app/assets/icons/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
